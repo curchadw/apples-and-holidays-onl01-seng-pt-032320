@@ -75,6 +75,7 @@ def all_holidays_with_bbq(holiday_hash)
     event.each do |hoilday_name, supply|
          if supply.include?("BBQ")
            symbols.push(hoilday_name)
+         end
       end
     end
     
